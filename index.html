@@ -12,28 +12,29 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="card col-md-4 offset-md-4">
+            <div class="card col-md-6 offset-md-3"> <!-- offset permet de rajouter un espace à gauche afin de centrer-->
                 <div class="card-body text-center">
-                    <h4 class="card-title">La Manu Le Havre</h4>
+                    <!--<h1 class="display-4">La Manu Le Havre</h1>-->
+                    <div class="h4 card-title">La Manu Le Havre</div>
                     <p class="card-text">L'Ecole des métiers du Numérique</p>
                     <button class="btn btn-primary" data-toggle="modal" data-target="#modalLink">+ d'infos</button>
                 </div>
             </div>
         </div>
         <div class="modal" id="modalLink"  role="dialog">
-            <div class="modal-dialog" role="document">
+            <div class="modal-dialog"> <!--role="document" ???-->
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title">La Manu Le Havre</h4>
+                        <div class="modal-title h4">La Manu Le Havre</div>
                         <button type="button" class="close " data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
+                            <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body bg-primary text-center">
-                        <a class="text-white" href="https://lamanu.fr/le-havre">https://lamanu.fr/le-havre</a>
+                        <a class="text-white" href="https://lamanu.fr/le-havre" title="Aller vers La Manu">https://lamanu.fr/le-havre</a>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button>
                     </div>
                 </div>
             </div>
